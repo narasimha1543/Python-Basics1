@@ -234,3 +234,4 @@ list1=list(map(int,input("enter the multiple ")))
 
 
 
+
