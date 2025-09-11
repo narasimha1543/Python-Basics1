@@ -226,6 +226,69 @@ print("minimum value of the list:",list1[0])
 #find the maxmum and minimum numbers from list without using max() and min() and sort().
 list1=list(map(int,input("enter the multiple ")))
 
+serching for an element in a list:
+
+names=["lucky","bittu","somu","sita"]
+serching_name=input("enter the name to be found:")
+found=False
+for i in names:
+    if serching_name==i:
+     found=True
+
+if found:
+    print("yes found")
+else:
+    print("not found")
+
+#count even and odd numbers in the list:
+numbers=[1,2,3,4,5,6,7,8,77,11,22,66]
+even_cnt=0
+odd_count=0
+
+for i in range(len(numbers)):
+    if numbers[i]%2==0:
+        even_cnt+=1
+    else:
+        odd_count+=1
+print("number of even numbers are:",even_cnt)
+print("number od odd numbers are:",odd_count)
+
+#reversing a list without reverse:
+list1 = [1, 2, 3, 4, 5]
+list2 = []
+for i in list1:
+    list2.insert(0,i)
+print(list2) 
+    #    (or)
+
+#ind  =  0  1  2  3  4
+l=len(list1)
+r_list=[]
+for i in range(l-1,-1,-1):
+    r_list.append(list1[i])
+print(r_list) list1 = [1, 2, 3, 4, 5]
+# 
+
+#removing all negative numbers using loop:
+
+numbers = [90, -3, -8, -12, 30, -45]
+positive_numbers = []
+for num in numbers:
+    if num >= 0:
+        positive_numbers.append(num)
+print(positive_numbers)
+
+#multiply each element in the list:
+
+list1 = [1, 2, 3, 4, 5]
+list2 = 2
+list3= []
+for num in list1:
+    list3.append(num*list2)
+print(list3)
+
+
+
 
 
 
