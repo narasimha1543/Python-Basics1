@@ -138,3 +138,6 @@ biodata.update({"role":"web developer","place":"hyderabad"})
 print(biodata)
 
 #loops for dictionary:
+for i in biodata.values():
+    print(i)
+
