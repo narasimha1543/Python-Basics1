@@ -137,7 +137,19 @@ print(biodata.items())
 biodata.update({"role":"web developer","place":"hyderabad"})
 print(biodata)
 
+#NESTED DICTIONARY:
+students={
+    "s1":{"name":"narasimha","roll no":"25N3A166K7"},
+    "s2":{"name":"sadvik","roll no":"25N3A166L0"}
+}
+print(students["s1"])
+print(students["s1"]["name"])
+print(students["s1"]["roll no"])
+print(students["s2"]["roll no"])
+print(students["s2"]["roll no"])
+
 #loops for dictionary:
 for i in biodata.values():
     print(i)
+
 
