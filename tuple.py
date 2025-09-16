@@ -129,6 +129,13 @@ print(a.count(30))
 #sorting & reversing is  not applicable to tuple
 # 'tuple' object does not support item assignment
 
+#NESTED TUPLE:
+#   0  0  1    0  1
+t=(10,(20,30),(40,50))
+#   0     1      2
+print(t[1][1])
+
+
 
 
 
