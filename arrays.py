@@ -32,3 +32,33 @@ print(numbers)
 
 #extend():
 numbers.extend()
+print(numbers)
+
+deleting an element:
+# #remove():
+# numbers.remove(2)
+# print(numbers)
+
+# #pop():
+# numbers.pop(-4)
+# print(numbers)
+
+# #clear():
+# numbers.clear()
+# print(numbers)
+
+#updating an element:
+numbers[0]=10
+print(numbers)
+
+#looping thrugh arrays:
+for i in numbers:
+    print(i)
+
+#basic operations on arrays:
+#len():
+print(len(numbers))
+#max():
+print(max(numbers))
+#min():
+print(min(numbers))
