@@ -87,16 +87,18 @@ x=10 #global variable
 #     print('inside var1 function',x,)
 # var1()
 # def var2():
-#         print('inside var2 function',x,)
-# var2()
-# print('outside function',x,)
-#lambda fuctions:
-#normal function
-def sqe(a):
-      print(a*a)
-sqe(5)
+# #         print('inside var2 function',x,)
+# # var2()
+# # print('outside function',x,)
+# #lambda fuctions:
+# #normal function
+# def sqe(a):
+#       print(a*a)
+# sqe(5)
 
-#lmbda function
-squ=lambda x:x*x
-print(squ(5))
+# #lambda function
+# squ=lambda x:x*x
+# print(squ(5))
+
+
 
